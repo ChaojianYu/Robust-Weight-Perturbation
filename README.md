@@ -36,7 +36,7 @@ For TRADES-RWP with a WRN-34-10 on CIFAR10 under L_inf threat model (8/255), run
 python train_trades_cifar.py
 ```
 
-For RST-RWP with a WRN-28-10 on CIFAR10 under L_inf threat model (8/255). To run RST-RWP, you first need to download [500K unlabeled data from TinyImages (with pseudo-labels)](https://drive.google.com/open?id=1LTw3Sb5QoiCCN-6Y5PEKkq9C9W60w-Hi), and then run codes as follows,
+For RST-RWP with a WRN-28-10 on CIFAR10 under L_inf threat model (8/255), you first need to download [500K unlabeled data from TinyImages (with pseudo-labels)](https://drive.google.com/open?id=1LTw3Sb5QoiCCN-6Y5PEKkq9C9W60w-Hi), and then run codes as follows,
 ```
 python robust_self_training.py
 ```
