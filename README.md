@@ -4,7 +4,7 @@ This branch is developed for adversarial training with robust weight perturbatio
 
     Robust Weight Perturbation for Adversarial Training[C]
     Chaojian Yu, Bo Han, Mingming Gong, Li Shen, Shiming Ge, Du Bo, Tongliang Liu
-    IJCAI-ECAI. 2022.
+    IJCAI. 2022.
 
 ## Requisite
 
@@ -40,6 +40,16 @@ For RST-RWP with a WRN-28-10 on CIFAR10 under L_inf threat model (8/255), you fi
 ```
 python robust_self_training.py
 ```
+
+## Citation
+If the code helps your research, please consider to cite our work:
+
+    @article{yu2022robust,
+      title={Robust Weight Perturbation for Adversarial Training},
+      author={Yu, Chaojian and Han, Bo and Gong, Mingming and Shen, Li and Ge, Shiming and Du, Bo and Liu, Tongliang},
+      journal={arXiv preprint arXiv:2205.14826},
+      year={2022}
+    }
 
 ## Reference Code
 [1] AT: https://github.com/locuslab/robust_overfitting
