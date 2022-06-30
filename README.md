@@ -42,7 +42,7 @@ python robust_self_training.py
 ```
 
 ## Citation
-If the code helps your research, please consider to cite our work:
+If you find our code useful, please consider citing our work:
 
     @article{yu2022robust,
       title={Robust Weight Perturbation for Adversarial Training},
